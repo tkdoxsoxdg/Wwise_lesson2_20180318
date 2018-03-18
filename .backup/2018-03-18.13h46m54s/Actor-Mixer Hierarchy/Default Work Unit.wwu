@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{24CA6058-8300-4269-9BBA-0ED8E4EFE1BC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Shotgun_Blast" ID="{E83399F5-848E-4B4C-BEBD-AA5D1267904F}" ShortID="128964744" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD705AA2-E8EF-4364-8FC0-5CAAB78BB3B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8BA25012-125C-4F04-9C84-9B2794DD2B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shotgun_Blast" ID="{37C08F38-A3FF-400D-82FC-22BA1E1FA862}" ShortID="795409359">
+							<Language>SFX</Language>
+							<AudioFile>Shotgun_Blast.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shotgun_Blast" ID="{37C08F38-A3FF-400D-82FC-22BA1E1FA862}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
